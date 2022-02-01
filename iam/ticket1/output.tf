@@ -1,6 +1,6 @@
 output bobs_arn {
-  # Your code goes here 
+  value = aws_iam_user.user.arn
 }
 output bobs_unique_id {
-  # Your code goes here 
+  value = aws_iam_user.group.id
 }

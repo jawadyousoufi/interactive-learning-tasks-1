@@ -1,5 +1,6 @@
 resource "aws_subnet" "public1" {
-  # Your code goes here 
+   vpc_id     = aws_vpc.main.id
+  cidr_block = "10.0.101.0/24"
 
 
 
@@ -12,7 +13,8 @@ resource "aws_subnet" "public1" {
 
 
 resource "aws_subnet" "public2" {
-   # Your code goes here 
+    vpc_id     = aws_vpc.main.id
+  cidr_block = "10.0.101.0/24"
 
 
 
@@ -26,7 +28,8 @@ resource "aws_subnet" "public2" {
 
 
 resource "aws_subnet" "public3" {
-   # Your code goes here 
+    vpc_id     = aws_vpc.main.id
+  cidr_block = "10.0.101.0/24"
 
 
 
